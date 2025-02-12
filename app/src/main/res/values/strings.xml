@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Saludo Interactivo</string>
+    <string name="hint_nombre">Ingresa tu nombre</string>
+    <string name="hint_edad">Ingresa tu edad</string>
+    <string name="btn_saludar">Saludar</string>
+    <string name="btn_limpiar">Limpiar</string>
+    <string name="tv_resultado">Aquí aparecerá el mensaje</string>
+    <string name="error_campos_vacios">Por favor, completa todos los campos</string>
+    <string name="error_edad_invalida">La edad ingresada no es válida</string>
+    <string name="mensaje_saludo">Hola %1$s, tienes %2$d años</string>
+</resources>
