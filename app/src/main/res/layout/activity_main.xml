@@ -8,7 +8,7 @@
 
     <EditText
         android:id="@+id/etNombre"
-        android:layout_width="match_parent"
+        android:layout_width="378dp"
         android:layout_height="wrap_content"
         android:hint="@string/hint_nombre"
         android:inputType="textPersonName" />
@@ -19,6 +19,12 @@
         android:layout_height="wrap_content"
         android:hint="@string/hint_edad"
         android:inputType="number" />
+
+    <Switch
+        android:id="@+id/switchRecordar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recordar nombre" />
 
     <Button
         android:id="@+id/btnSaludar"
@@ -34,6 +40,8 @@
         android:text="@string/btn_limpiar"
         android:layout_marginTop="8dp"/>
 
+
+
     <TextView
         android:id="@+id/tvResultado"
         android:layout_width="match_parent"
@@ -42,5 +50,12 @@
         android:textSize="18sp"
         android:gravity="center"
         android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnSalir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salir"
+        android:layout_marginTop="8dp"/>
 
 </LinearLayout>
